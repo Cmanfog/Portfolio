@@ -1,0 +1,225 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: rgb(7, 47, 74)
+      position: absolute
+- Image:
+    source: ReactLogo.png
+    style:
+      width: 40%
+      height: 20%
+      position: absolute
+      left: 30%
+      top: 2.5%
+- Button: 
+    id: StandardInit
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 10
+      position: absolute
+      left: 78%
+      top: 10%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 43 
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+- Button: 
+    id: Title_Page
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 78%
+      top: 2.5%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 31      
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+- TextInput:
+    id: input
+    style:
+      fontSize: 30
+      color: white
+      borderColor: grey
+      borderWidth: 1
+      width: 20%
+      height: 7%
+      position: absolute
+      left: 78%
+      top: 21.5%
+    index: 2200
+    len: 6
+- View: 
+    id: Label
+    style:
+      borderWidth: 1
+      marginTop: 0
+      width: 20%
+      height: 4%
+      backgroundColor: rgb(200, 246, 74)
+      position: absolute
+      left: 78%
+      top: 17.5%      
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 15
+            color: white
+            borderColor: grey
+            justifyContent: center
+            alignItems: center
+          index: 58
+
+- Button: 
+    id: KnightPractice
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 2.5%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: rgb(7, 47, 74)
+            fontSize: 15
+          index: 3100      
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+ 
+- Button: 
+    id: BishopPractice
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 10%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: rgb(7, 47, 74)
+            fontSize: 15
+          index: 3120
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+ 
+- Button: 
+    id: RookPractice
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 17.5%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: rgb(7, 47, 74)
+            fontSize: 15
+          index: 3140
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+ 
+- Button: 
+    id: CheckmatePractice1
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 25%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: rgb(7, 47, 74)
+            fontSize: 15
+          index: 3160
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+ 
+- Button: 
+    id: CheckmatePractice2
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 32.5%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: rgb(7, 47, 74)
+            fontSize: 15
+          index: 3182
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+ 
+- Button: 
+    id: CheckmatePractice3
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 40%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: rgb(7, 47, 74)
+            fontSize: 15
+          index: 3204
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+

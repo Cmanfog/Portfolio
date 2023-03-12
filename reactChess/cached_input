@@ -1,0 +1,2327 @@
+- message_id: 14
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: 'rgb(7, 47, 74)'
+      position: absolute
+- Image:
+    source: ReactLogo.png
+    style:
+      width: 40%
+      height: 20%
+      position: absolute
+      left: 30%
+      top: 2.5%
+- Button:
+    id: StandardInit
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 10
+      position: absolute
+      left: 78%
+      top: 10%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 43
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- Button:
+    id: Title_Page
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 78%
+      top: 2.5%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 31
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- TextInput:
+    id: input
+    style:
+      fontSize: 30
+      color: white
+      borderColor: grey
+      borderWidth: 1
+      width: 20%
+      height: 7%
+      position: absolute
+      left: 78%
+      top: 21.5%
+    index: 2200
+    len: 6
+- View:
+    id: Label
+    style:
+      borderWidth: 1
+      marginTop: 0
+      width: 20%
+      height: 4%
+      backgroundColor: 'rgb(200, 246, 74)'
+      position: absolute
+      left: 78%
+      top: 17.5%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 15
+            color: white
+            borderColor: grey
+            justifyContent: center
+            alignItems: center
+          index: 58
+- Button:
+    id: KnightPractice
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 2.5%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: 'rgb(7, 47, 74)'
+            fontSize: 15
+          index: 3100
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- Button:
+    id: BishopPractice
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 10%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: 'rgb(7, 47, 74)'
+            fontSize: 15
+          index: 3120
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- Button:
+    id: RookPractice
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 17.5%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: 'rgb(7, 47, 74)'
+            fontSize: 15
+          index: 3140
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- Button:
+    id: CheckmatePractice1
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 25%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: 'rgb(7, 47, 74)'
+            fontSize: 15
+          index: 3160
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- Button:
+    id: CheckmatePractice2
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 32.5%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: 'rgb(7, 47, 74)'
+            fontSize: 15
+          index: 3182
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- Button:
+    id: CheckmatePractice3
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: 'rgb(200, 246, 74)'
+      borderRadius: 11
+      position: absolute
+      left: 2.5%
+      top: 40%
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: 'rgb(7, 47, 74)'
+            fontSize: 15
+          index: 3204
+    on_touch:
+      backgroundColor: 'rgb(112, 246, 74)'
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 31%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2500
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 30%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2500
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 36%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2502
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 39%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2502
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 41%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2504
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 48%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2504
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 46%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2506
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 57%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2506
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 51%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2508
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 66%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2508
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 56%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2510
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 75%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2510
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 61%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2512
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 84%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2512
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 66%
+      top: 24%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2514
+- View:
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: 27.500000%
+      top: 93%
+      backgroundColor: 'rgb(7, 47, 74)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: 2514
+- Button:
+    id: 0
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 25%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BRook.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 1
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 25%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BKnight.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 2
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 25%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BBishop.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 3
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 25%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 4
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 25%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BKing.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 5
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 25%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BBishop.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 6
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 25%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BKnight.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 7
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 25%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BRook.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 10
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 34%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 11
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 34%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 12
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 34%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 13
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 34%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BQueen.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 14
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 34%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 15
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 34%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 16
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 34%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 17
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 34%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 20
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 43%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 21
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 43%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 22
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 43%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 23
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 43%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 24
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 43%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 25
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 43%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 26
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 43%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 27
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 43%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 30
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 52%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 31
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 52%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WBishop.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 32
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 52%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 33
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 52%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 34
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 52%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 35
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 52%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 36
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 52%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 37
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 52%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 40
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 61%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 41
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 61%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 42
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 61%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 43
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 61%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 44
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 61%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: BPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 45
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 61%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 46
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 61%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 47
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 61%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 50
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 70%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 51
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 70%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 52
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 70%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 53
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 70%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 54
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 70%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 55
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 70%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 56
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 70%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 57
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 70%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 60
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 79%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 61
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 79%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 62
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 79%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 63
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 79%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 64
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 79%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 65
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 79%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 66
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 79%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 67
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 79%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WPawn.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 70
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 30%
+      top: 88%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WRook.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 71
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 35%
+      top: 88%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WKnight.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 72
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 40%
+      top: 88%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WBishop.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 73
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 45%
+      top: 88%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WQueen.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 74
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 50%
+      top: 88%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WKing.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 75
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 55%
+      top: 88%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: 0
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 76
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 60%
+      top: 88%
+      backgroundColor: 'rgb(163,98,32)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WKnight.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- Button:
+    id: 77
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: 65%
+      top: 88%
+      backgroundColor: 'rgb(75,38,0)'
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: null
+      - Image:
+          source: WRook.png
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: 'rgb(200, 200, 200)'
+- event_info:
+    type: touch_up
+    start_x: 1216
+    start_y: 116
+    point_x: 1216
+    point_y: 116
+    nodes:
+      - Button_3
+    id: StandardInit
+- first_name: 'undefined'
+---
+22 Player Settings How to Play Title Page ~Standard Setup Make a Move: ~~~~01~~~~~~~~~~~~~~~~~~~~~~~Pawns are the most common piece in the game. At the start of the game, they are able to move one or two spaces forward. Afterwards, they can only move forward one space as long as there is nothing in front of them. They can also move by capturing other pieces that are in front of them diagonally. ~~Rooks can be found on the each corner of the board. They are capable of moving horizontally or vertically for as many empty spaces as the player desires. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Bishops are capable of moving in any direction diagonally across the board. Here's a tip: If a bishop is on a darker space, it can only go to other darker spaces. Same thing if it's on a lighter space. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Despite the fact that knights are represented by mere horses and not their riders, these pieces are capable of going places other pieces can't. Knights can only move to another space that one space apart in one direction and two spaces apart in the direction perpendicular to it. Basically, if you can make L-shape to your destination, you can go there.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Queens are by far the most powerful and versatile pieces in the game. They can move in any direction horizontally, vetically or diagonally, meaning they can go places that other pieces like bishops or rooks would have a hard time getting to. Be wary of where you put this one, because if the other person has a queen and yours gets taken, you'll be at a disadvantage. Think smart. ~~~~~~~~~~~~~~~~~~~Kings are the most vital piece in the game. It can only move one space in any horizontal, vertical, or diagonal direction. If an opposing piece can take the king within a move, the king is put in check, meaning you have to find a way to stop the opposing piece from getting to your king. If there is no possible way to avoid your king being taken, the result is a checkmate and other player wins. ~~~      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~0 1 2 3 4 5 6 7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~rnb0kbnrpppqpppp000000000B0000000000p00000000000PPPP0PPPRNBQK0NR~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Knight Practice ~~~~Bishop Practice ~~~~Rook Practice ~~~~~~Checkmate Practice #1 Checkmate Practice #2 Checkmate Practice #3 

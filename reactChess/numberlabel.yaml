@@ -1,0 +1,20 @@
+- View: 
+    id: coordinate
+    style:
+      position: absolute
+      width: 2%
+      height: 2%
+      left: {left}%
+      top: {top}%
+      backgroundColor: rgb(7, 47, 74)
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index: {x}
+

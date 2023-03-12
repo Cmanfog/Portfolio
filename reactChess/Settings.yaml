@@ -1,0 +1,66 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: rgb(7, 47, 74)
+      position: absolute
+- Image:
+    source: ReactLogo.png
+    style:
+      width: 40%
+      height: 20%
+      position: absolute
+      left: 30%
+      top: 2.5%
+- Button: 
+    id: 2_player
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 10
+      position: absolute
+      left: 78%
+      top: 10%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 1      
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+- Button: 
+    id: Title_Page
+    style:
+      marginTop: 0
+      width: 20%
+      height: 7%
+      backgroundColor: rgb(200, 246, 74)
+      borderRadius: 10
+      position: absolute
+      left: 78%
+      top: 2.5%
+      justifyContent: 'center'
+      alignItems: 'center'
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 15
+          index: 31      
+    on_touch:
+      backgroundColor: rgb(112, 246, 74)
+
+- Text:
+    style:
+      color: rgb(200, 200, 100)
+      fontSize: 14
+      position: absolute
+      left: 10%
+      top: 20%
+    index: 4000
+

@@ -1,0 +1,29 @@
+- Button: 
+    id: {id0}{id1}
+    style:
+      position: absolute
+      width: 5%
+      height: 9%
+      left: {left}%
+      top: {top}%
+      backgroundColor: {color}
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            color: white
+            fontSize: 20
+            marginTop: 7.5
+            marginLeft: 20
+          index:
+      - Image:
+          source: {x}
+          style:
+            justifyContent: center
+            alignItems: center
+            width: 50%
+            height: 50
+    on_touch:
+      backgroundColor: rgb(200, 200, 200)
+
